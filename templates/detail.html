@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}
+    Task: {{ task.name }}
+{% endblock %}
+ {% block content %}
+
+<h1>
+    {{ task.name }}
+</h1>
+     <p>
+     Category: {{ task.category }}
+     </p>
+          <p>
+     Description: {{ task.description }}
+     </p>
+{% endblock %}
